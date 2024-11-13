@@ -1,6 +1,6 @@
 # CRUD conectado ao Banco de Dados
 
-O projeto é uma Ferramenta de Gerenciamento de Alunos conectado a um Bando de Dados MySQL em que é possível realizar as seguintes operações:
+O projeto é uma Ferramenta de Gerenciamento de Alunos conectada a um Bando de Dados MySQL em que é possível realizar as seguintes operações:
 
 - Inserir Aluno;
 - Atualizar Aluno;
@@ -58,4 +58,4 @@ O código deve ser inicializado por uma IDE que aceite Java, como o Eclipse.
 
 ## ✒️ Autores
 
-* **Mateus Franco Bezerra** - *Trabalho Inicial* - GERENCIAMENTO FRUTAS (COMMAND LINE INTERFACE)
+* **Mateus Franco Bezerra** - *Trabalho Inicial* - CRUD conectado ao Banco de Dados
