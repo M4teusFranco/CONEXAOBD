@@ -37,7 +37,7 @@ git clone https://github.com/seu-usuario/CONEXAODB
 4. Configure a URL de conexão, usuário e senha em ConexaoDB.java:
 
 ```
-private static final String URL = "jdbc:mysql://localhost:3306/aula_java_db";
+private static final String URL = "jdbc:mysql://localhost:3306/seu_banco";
 private static final String USUARIO = "root"
 private static final String SENHA = ""
 ```
