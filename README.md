@@ -8,10 +8,10 @@ Este projeto é um sistema de linha de comando em Java que realiza operações b
 
 - ConexaoDB: Estabelece a conexão com o banco de dados.
 - Main: Interface principal que oferece um menu interativo com as opções disponíveis.
-- InserirDados: Adiciona os registros ao banco
+- InserirDados: Adiciona os registros ao banco.
 - AtualizarDados: Atualiza os registros existentes no banco.
 - DeletarDados: Remove registros do banco.
-- LerDados: Exibe os registros contidos no banco
+- LerDados: Exibe os registros contidos no banco.
 
 ### 🔧 Pré-requisitos
 
@@ -25,7 +25,7 @@ Este projeto é um sistema de linha de comando em Java que realiza operações b
 1. Clone o repositório:
 
 ```
-git clone https://github.com/seu-usuario/MODELO_TELA
+git clone https://github.com/seu-usuario/CONEXAODB
 ```
 
 2. Importe o projeto no Eclipse:
@@ -37,16 +37,16 @@ git clone https://github.com/seu-usuario/MODELO_TELA
 4. Configure a URL de conexão, usuário e senha em ConexaoDB.java:
 
 ```
-String url = "jdbc:mysql://localhost:3306/seu_banco";
-String usuario = "root";
-String senha = "sua_senha";
+private static final String URL = "jdbc:mysql://localhost:3306/aula_java_db";
+private static final String USUARIO = "root"
+private static final String SENHA = ""
 ```
 
 5. Execute a classe Main.java e siga as instruções no terminal.
 
 ### 🛠️ Funcionalidades Implementadas
 
-- Conexão com banco de dados via JDBC
+- Conexão com banco de dados via JPA
 - Menu interativo via console
 - Adição de registros, que cria um ID
 - Atualização de registros por ID
